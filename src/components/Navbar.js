@@ -13,21 +13,21 @@ const Navbar = ({ currentPage, handlePageChange }) => {
           Projects
         </a>
         <a
-          href="/"
+          href="#home"
           onClick={() => handlePageChange("Home")}
           className={currentPage === "Home" ? "nav-link active" : "nav-link"}
         >
           About Me
         </a>
         <a
-          href="/contact"
+          href="#contact"
           onClick={() => handlePageChange("Contact")}
           className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
         >
           Contact
         </a>
         <a
-          href="/resume"
+          href="#resume"
           onClick={() => handlePageChange("Resume")}
           className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
         >
