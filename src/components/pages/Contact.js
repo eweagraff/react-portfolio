@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <form id="contact-form">
       <div className="form-group">
-        <label htmlFor="name">Name</label>
+        <label htmlFor="name">Username</label>
         <input type="text" className="form-control" />
       </div>
       <div className="form-group">
@@ -13,10 +13,7 @@ const Contact = () => {
           aria-describedby="emailHelp"
         />
       </div>
-      <div className="form-group">
-        <label htmlFor="message">Message</label>
-        <textarea className="form-control" rows="5"></textarea>
-      </div>
+
       <button type="submit" className="btn btn-primary">
         Submit
       </button>
