@@ -1,6 +1,6 @@
 const Resume = () => {
   return (
-    <a class="resume" href="./assets/images/EmilyWeagraff_Resume 2.pdf">
+    <a class="resume" href="./assets/images/TechnicalResume.pdf">
       Resume
     </a>
   );
