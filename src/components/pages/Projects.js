@@ -1,9 +1,9 @@
 const Projects = () => {
   return (
-    <section>
+    <section className="projects">
       <div class="row">
         <div class="column">
-          <p>Find Eat Enjoy Love</p>
+          <h3>Find Eat Enjoy Love</h3>
           <a href="https://vasylynash.github.io/FEEL/">
             <img
               src="./assets/images/landingPage1.png"
@@ -16,6 +16,7 @@ const Projects = () => {
       </div>
       <div class="row">
         <div class="column">
+          <h3> Weather App </h3>
           <a href="https://eweagraff.github.io/vanilla-weather-app/">
             <img
               src="./assets/images/weather_app.png"
@@ -24,6 +25,7 @@ const Projects = () => {
               height="200"
             />
           </a>
+          <h3> Thailad Quiz </h3>
           <a href="https://eweagraff.github.io/Thailand_Quiz/">
             <img
               src="./assets/images/Thailandquizscreenshot.png"
@@ -32,6 +34,7 @@ const Projects = () => {
               height="200"
             />
           </a>
+          <h3> TripScav </h3>
           <a href="http://etripscav.herokuapp.com/">
             <img
               src="./assets/images/tripscav.png"
