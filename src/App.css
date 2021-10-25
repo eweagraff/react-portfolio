@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-  color: purple;
+  color: #694ac9;
 }
 
 .navbar {
@@ -29,12 +29,13 @@ h1 {
 }
 
 .links {
-  margin-left: 25px;
+  margin-left: 120px;
   color: purple;
 }
 
 .navbar li {
   display: inline;
+  color: #694ac9;
 }
 
 .navbar a {
@@ -43,11 +44,53 @@ h1 {
   color: purple;
 }
 
-.links li:hover a {
-  color: lavender;
-}
-
 .projects {
   display: inline-block;
   padding: 50px;
+}
+
+#personal_photo {
+  display: block;
+  margin: auto;
+  padding: 15px;
+  border: 5px solild purple;
+  border-radius: 35px;
+  background-color: rgb(100, 199, 199);
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img {
+  border: solid darkslategray;
+  border-width: thick;
+}
+
+.mx-auto {
+  margin: 0 auto;
+  color: #694ac9;
+  font-size: large;
+  font-weight: bold;
+  font-size: 35px;
+  padding: 20px;
+}
+
+p {
+  color: slateblue;
+  text-align: center;
+  padding: 25px;
+  font-size: 19px;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #694ac9;
+}
+
+button:hover {
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: inset 0 0 8px #694ac9;
 }
