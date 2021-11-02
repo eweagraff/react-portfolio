@@ -4,7 +4,7 @@
   font-family: "Lobster", cursive;
 }
 body {
-  background-image: url("./images/backgroundimage.png");
+  background-image: url("./images/pinkbackground.png");
   font-family: "Lobster", cursive;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,12 +29,14 @@ h1 {
 }
 
 .links {
-  margin-left: 120px;
+  margin-left: 25px;
   color: purple;
 }
 
 .navbar li {
-  display: inline;
+  display: inline-block;
+  position: relative;
+  text-align: center;
   color: #694ac9;
 }
 
@@ -72,7 +74,8 @@ img {
   font-size: large;
   font-weight: bold;
   font-size: 35px;
-  padding: 20px;
+  padding: 25px;
+  padding-right: 25px;
 }
 
 p {
@@ -85,12 +88,36 @@ p {
 button {
   border: none;
   border-radius: 10px;
-  box-shadow: 0 0 8px #694ac9;
+  box-shadow: 0 0 15px #694ac9;
 }
 
 button:hover {
   border: none;
   padding: 15px;
   border-radius: 15px;
-  box-shadow: inset 0 0 8px #694ac9;
+  box-shadow: inset 0 0 12px #694ac9;
+}
+
+h6 {
+  padding-right: 550px;
+  text-align: center;
+  float: left;
+  color: #694ac9;
+  text-align: center;
+}
+
+h3 {
+  color: #694ac9;
+  text-align: center;
+}
+
+.projects {
+  flex-direction: row;
+  text-align: center;
+  border-spacing: 35px;
+}
+.navbar {
+  text-align: center;
+  position: relative;
+  display: inline-block;
 }

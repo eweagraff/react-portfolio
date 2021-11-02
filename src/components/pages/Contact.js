@@ -1,22 +1,11 @@
 const Contact = () => {
   return (
-    <form id="contact-form">
-      <div className="form-group">
-        <label htmlFor="name">Username</label>
-        <input type="text" className="form-control" />
-      </div>
-      <div className="form-group">
-        <label htmlFor="exampleInputEmail1">Email address</label>
-        <input
-          type="email"
-          className="form-control"
-          aria-describedby="emailHelp"
-        />
-      </div>
-
-      <button type="submit" className="btn btn-primary">
-        Submit
-      </button>
+    <form
+      enctype="text/plain"
+      method="post"
+      action="mailto:weagraff.emily@gmail.com"
+    >
+      <button>Let's Connect!</button>
     </form>
   );
 };
