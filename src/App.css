@@ -26,6 +26,7 @@ h1 {
   font-size: 20px;
   font-weight: 100;
   font-family: "Lobster", cursive;
+  z-index: 2;
 }
 
 .links {
@@ -34,14 +35,14 @@ h1 {
 }
 
 .navbar li {
-  display: inline-block;
-  position: relative;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   color: #694ac9;
+  float: left;
 }
 
 .navbar a {
-  display: inline-block;
+  display: flex;
   padding: 10px;
   color: purple;
 }
@@ -57,58 +58,64 @@ h1 {
   padding: 15px;
   border: 5px solild purple;
   border-radius: 35px;
-  background-color: rgb(100, 199, 199);
+  background-color:#AAC8C6;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
 }
 
 img {
-  border: solid darkslategray;
+  border: solid#52505E;
   border-width: thick;
 }
 
 .mx-auto {
   margin: 0 auto;
-  color: #694ac9;
+  color: #52505E;
   font-size: large;
   font-weight: bold;
   font-size: 35px;
   padding: 25px;
   padding-right: 25px;
+  
 }
 
 p {
-  color: slateblue;
-  text-align: center;
+  color: #52505E;
+  text-align: right;
   padding: 25px;
   font-size: 19px;
+  float: right;
+
 }
 
 button {
   border: none;
   border-radius: 10px;
-  box-shadow: 0 0 15px #694ac9;
+  box-shadow: 0 0 15px #52505E;
 }
 
 button:hover {
   border: none;
   padding: 15px;
   border-radius: 15px;
-  box-shadow: inset 0 0 12px #694ac9;
+  box-shadow: inset 0 0 12px #AAC8C6;
 }
 
 h6 {
-  padding-right: 550px;
+  padding-right: 500px;
   text-align: center;
-  float: left;
-  color: #694ac9;
-  text-align: center;
+  color:#52505E;
+  flex-direction: row;
+
+  
+  
 }
 
 h3 {
-  color: #694ac9;
+  color:#52505E;
   text-align: center;
+
 }
 
 .projects {
@@ -116,8 +123,8 @@ h3 {
   text-align: center;
   border-spacing: 35px;
 }
-.navbar {
-  text-align: center;
-  position: relative;
-  display: inline-block;
+
+
+.resume {
+  text-align: left;
 }

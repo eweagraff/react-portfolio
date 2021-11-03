@@ -2,7 +2,7 @@ const Projects = () => {
   return (
     <section className="projects">
       <tr>
-        <div class="row">
+        <div classNme="row">
           <div class="column">
             <h3>Parks & Trek</h3>
 

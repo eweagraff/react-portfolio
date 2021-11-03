@@ -5,7 +5,7 @@ const Contact = () => {
       method="post"
       action="mailto:weagraff.emily@gmail.com"
     >
-      <button>Let's Connect!</button>
+       <button className="btn btn-lg ">Let's Connect</button>
     </form>
   );
 };

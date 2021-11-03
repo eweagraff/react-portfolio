@@ -1,7 +1,7 @@
 const Resume = () => {
   return (
     <a class="resume" href="./assets/images/TechnicalResume.pdf">
-      Resume
+      <button className="btn btn-lg ">View my Resume</button>
     </a>
   );
 };
