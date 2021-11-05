@@ -112,19 +112,16 @@ h6 {
   
 }
 
-h3 {
-  color:#52505E;
-  text-align: center;
 
-}
 
-.projects {
-  flex-direction: row;
-  text-align: center;
-  border-spacing: 35px;
-}
 
 
 .resume {
   text-align: left;
+}
+
+.caption {
+  display: block;
+  color:#52505E;
+  text-align: center;
 }
