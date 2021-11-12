@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <div className="home">
       <p>
-        Front-end web developer that has a passion for an aesthetically pleasing
+        Full stack web developer that has a passion for an aesthetically pleasing
         design. I recently graduated from UC Davis Full Stack Coding Boot Camp.
         The boot camp required 240 in-class hours and helped build a strong
         foundation in web development. Part of the course completion included
