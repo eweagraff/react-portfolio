@@ -1,6 +1,8 @@
 const Projects = () => {
   return (
+  
     <section className="projects">
+      <h1>Welcome to my completed web applications</h1>
       <tr>
         <div classNme="row">
           <div class="column">

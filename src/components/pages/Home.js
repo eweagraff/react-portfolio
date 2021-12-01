@@ -1,6 +1,13 @@
 const Home = () => {
   return (
     <div className="home">
+      
+     <img
+        src="./assets/images/Em.jpg"
+        alt="personal"
+        width="400px"
+        id="personal_photo"
+      />
       <p>
         Full stack web developer that has a passion for an aesthetically pleasing
         design. I recently graduated from UC Davis Full Stack Coding Boot Camp.
@@ -18,7 +25,9 @@ const Home = () => {
         group, we shared ideas and worked as a team to complete this application
         by utilizing Github. I am looking forward to enhancing my skill set with
         a highly-driven team in developing skillfully designed web applications.</p>
+    
     </div>
+    
   );
 };
 

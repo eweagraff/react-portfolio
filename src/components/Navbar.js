@@ -1,15 +1,7 @@
 const Navbar = ({ currentPage, handlePageChange }) => {
   return (
     <nav className="navbar">
-      <span className="mx-auto">Emily Weagraff</span>
-      <span className="mx-auto"> Full Stack Developer</span>
-
-      <img
-        src="./assets/images/Em.jpg"
-        alt="personal"
-        width="400px"
-        id="personal_photo"
-      />
+  
       <ul>
         <div className="links">
           <li>
@@ -58,6 +50,9 @@ const Navbar = ({ currentPage, handlePageChange }) => {
           </li>
         </div>
       </ul>
+      <span className="mx-auto">Emily Weagraff</span>
+      <span className="mx-auto"> Full Stack Developer</span>
+    
     </nav>
   );
 };

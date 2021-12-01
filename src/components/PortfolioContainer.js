@@ -6,6 +6,8 @@ import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 
 
+
+
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
 
@@ -31,8 +33,11 @@ export default function PortfolioContainer() {
 
   return (
     <div>
+    <div>
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+    
+    </div>
     </div>
   );
 }
