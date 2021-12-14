@@ -50,10 +50,7 @@ const Navbar = ({ currentPage, handlePageChange }) => {
           </li>
         </div>
       </ul>
-      <span className="mx-auto">Emily Weagraff</span>
-      <span className="mx-auto"> Full Stack Developer</span>
-    
-    </nav>
+     </nav>
   );
 };
 
